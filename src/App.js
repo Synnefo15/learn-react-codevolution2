@@ -1,12 +1,16 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import RefsDemo from "./components/RefsDemo";
+import PostForm from "./components/PostForm";
+import PostList from "./components/PostList";
+
+
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   );
 }
